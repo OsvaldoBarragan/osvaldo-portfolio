@@ -1,1 +1,25 @@
 /* your styles go here */
+#technologies1, #technologies2, #technologies3, #technologies4, #technologies5, #technologies6 {
+  height: 250px;
+}
+
+#project1, #project2 {
+  height: 240px;
+  width: 370px;
+}
+
+#linkToProject1 {
+  margin-left: 130px;
+}
+
+#linkToProject2 {
+  margin-left: 280px;
+}
+
+#linkToProject3 {
+  margin-left: 280px;
+}
+
+#linkToProject4 {
+  margin-left: 280px;
+}
