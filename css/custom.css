@@ -23,3 +23,28 @@
 #linkToProject4 {
   margin-left: 270px;
 }
+
+#cool {
+  width: 1000px;
+}
+
+#github {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#linkedin {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#email {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
