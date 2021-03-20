@@ -3,48 +3,82 @@
   height: 250px;
 }
 
-#project1, #project2 {
+#project1, #project2, #project3, #project4 {
   height: 240px;
-  width: 370px;
+  width: 300px;
 }
 
 #linkToProject1 {
-  margin-left: 130px;
+  text-align: center;
 }
 
 #linkToProject2 {
-  margin-left: 270px;
+  text-align: center;
 }
 
 #linkToProject3 {
-  margin-left: 270px;
+  text-align: center;
 }
 
 #linkToProject4 {
-  margin-left: 270px;
+  text-align: center;
 }
 
-#cool {
-  width: 1000px;
+#linkRow {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #github {
-  position: relative;
-  display: block;
+  position: absolute;
+  display: inline;
+  left: 100px;
+  bottom: -10px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #linkedin {
-  position: relative;
-  display: block;
+  position: absolute;
+  display: inline;
+  left: 465px;
+  bottom: -40px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #email {
-  position: relative;
-  display: block;
+  position: absolute;
+  display: inline;
+  left: 800px;
+  bottom: -40px;
   margin-left: auto;
   margin-right: auto;
 }
+
+#githubLink {
+  position: relative;
+  bottom: -90px;
+  left: -15px;
+}
+
+#linkedinLink {
+  position: relative;
+  bottom: -90px;
+  left: 220px;
+}
+
+#emailLink {
+  position: relative;
+  bottom: -70px;
+  left: 580px;
+}
+
+/* @media (min-width: 992px)
+  .col-lg-6 {
+    width: 1500px:
+} */
+
+/* #cool {
+  border: 2px solid blue;
+} */
